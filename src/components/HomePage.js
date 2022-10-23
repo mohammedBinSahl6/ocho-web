@@ -46,12 +46,18 @@ export default function HomePage(){
             </div>
         </div>
         
-        <div className="container mt-5 services">
-            <div className="row m-3 ">
-                <h1 className="head text-center">Our Services</h1>
+        <div className="container-fluid">
+        <div className="row mt-5 ">
+                <div className="head-wrapper">
+                <h1 className="head text-center" data-aos='fade-up'>Our Services</h1>
+                </div>
             </div>
+        </div>
+
+        <div className="container mt-5 services p-3">
+           
             <div className="row mt-3">
-                <h4 className="text-center">some text here!</h4>
+                <h4 className="text-center" data-aos='fade-up'>some text here!</h4>
                 <div className="card">
                     <img src={tablet} className='card-img-top'></img>
                     <div className="card-title">Graphic Design</div>

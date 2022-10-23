@@ -4,15 +4,31 @@
   --blueocho : #02b0e2;
 }
 
+
+
+*{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* --------------------------------------navbar */
 nav {
   background-color: rgba(102, 102, 102, 0.39);
+  
+
 }
 nav  *{
-  color: white!important;
+  color: white!important;    
 }
 
 nav a {
-  color:white
+  color:white;
+  padding: 1em 2em !important;
+  transition: 0.4s;
+}
+
+nav .nav-link:hover{
+  color: var(--redocho) !important;
+  font-weight: 700 !important;
 }
 nav  .container-fluid {
   display: flex !important;
@@ -54,7 +70,9 @@ nav  .container-fluid .nav{
   height: 25vh;
   border-radius: 100%;
   overflow: hidden !important ;
-  margin:0.4em 2em;
+  margin-top:2em !important;
+  margin-left: 1em;
+  margin-right: 1em;
 
 }
 
@@ -75,12 +93,26 @@ nav  .container-fluid .nav{
   display: block !important;
 }
 
-.head{
-  font-size: 8vh;
+.head{  /*----------------------head */
+   font-size: 8vh; 
+   color: white;
+
+
   
 }
 
 /* ----our services */
+.head-wrapper{
+  width: 100vw;
+  height: fit-content;
+  background-color: var(--redocho);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 .card{
   width: 44vh;
 }
