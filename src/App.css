@@ -1,7 +1,5 @@
 :root{
-  --main : #002029;
-  --redocho : #ee2525;
-  --blueocho : #3884B0;
+ 
   --C:#B07C9B;
   --C2:#BCA2A4;
   --C3:#6DB390;
@@ -15,13 +13,21 @@
 *{
   padding: 0 !important;
   margin: 0 !important;
+  box-sizing: border-box;
 }
 /* --------------------------------------navbar */
 nav {
-  background-color: rgba(102, 102, 102, 0.39);
-  
-
+  background-color: #66666663;
+  animation: fading 2s ease;
 }
+@keyframes fading{
+  from{background-color: black;}
+  to{
+    background-color: #66666663 ;
+  }
+}
+
+
 nav  *{
   color: white!important;    
 }
@@ -33,7 +39,7 @@ nav a {
 }
 
 nav .nav-link:hover{
-  color: var(--redocho) !important;
+  color: var(--C) !important;
   font-weight: 700 !important;
 }
 nav  .container-fluid {
@@ -46,83 +52,43 @@ nav  .container-fluid .nav{
 /* --------home 
 --land */
 
+
 .land{
-  background-color: var(--main);
+  background-color:black;
   width: 100%;
-  height: fit-content;
+  height: 100vh;
 
 }
 
-.logo-holder{
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+.brand{
+  font-size: 4em;
+  padding-left: 0.6em !important;
+  padding-bottom: 1em !important;
 
 }
 
-.logo-land{
-  width: 50vh;
-
-}
-
-.icons-holder{
-  display: flex;
-  justify-content: space-around;
-}
-
-.icon{
-  background-color: white;
-  width: 25vh;
-  height: 25vh;
-  border-radius: 100%;
-  overflow: hidden !important ;
-  margin-top:2em !important;
-  margin-left: 1em;
-  margin-right: 1em;
-
-}
-
-.icons-holder .col{
-  display: flex !important;
-  justify-content: center;
-}
-
-.the-icon{
-  width: 25vh;
-}
-
-.subtitle{
-  font-size: 2em;
-}
-
-.icon-wrap{
-  display: block !important;
-}
-
-.head{  /*----------------------head */
-   font-size: 8vh; 
-   color: white;
-
-
+.find{
+  font-size: 3em;
+  padding-left: 1em !important;
   
 }
 
-/* ----our services */
-.head-wrapper{
-  width: 100vw;
-  height: fit-content;
-  background-color: var(--redocho);
+.dropdown-menu {
+  background-color: #10484D !important;
+}
+.dropdown-item:hover{
+  color: black !important;
+}
+
+
+.btn-holder{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  height: 25vh;
 }
 
-
-
-.card{
-  width: 44vh;
-}
-.card-img-top{
-  width: 100%;
-
+.ex-btn{
+  width: 24vh;
+    font-size: 2em;
 }
