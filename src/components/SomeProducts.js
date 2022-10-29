@@ -15,8 +15,8 @@ export default function  SomeProducts(){
                                 <h3 className="card-title">Product</h3>
                                 <p className="price card-text">$23</p>
                                 <div className="btns-bar">
-                                <i class='bx bx-cart-add'></i>
-                                <i class='bx bxs-heart' ></i>
+                                <i className='bx bx-cart-add'></i>
+                                <i className='bx bxs-heart' ></i>
                                 </div>
                             </div>
                         </div>
@@ -27,8 +27,8 @@ export default function  SomeProducts(){
                                 <h3 className="card-title">Product</h3>
                                 <p className="price card-text">$23</p>
                                 <div className="btns-bar">
-                                <i class='bx bx-cart-add'></i>
-                                <i class='bx bxs-heart' ></i>
+                                <i className='bx bx-cart-add'></i>
+                                <i className='bx bxs-heart' ></i>
                                 </div>
                             </div>
                         </div>
@@ -39,8 +39,8 @@ export default function  SomeProducts(){
                                 <h3 className="card-title">Product</h3>
                                 <p className="price card-text">$23</p>
                                 <div className="btns-bar">
-                                <i class='bx bx-cart-add'></i>
-                                <i class='bx bxs-heart' ></i>
+                                <i className='bx bx-cart-add'></i>
+                                <i className='bx bxs-heart' ></i>
                                 </div>
                             </div>
                         </div>

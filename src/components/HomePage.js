@@ -1,4 +1,6 @@
 import React from "react";
+import AskSection from "./AskSection";
+import Contact from "./Contact";
 import SomeProducts from "./SomeProducts";
 import Vision from "./Vision";
 import WhatisNew from "./WhatisNew";
@@ -24,6 +26,9 @@ export default function HomePage(){
       <WhatisNew />
       <SomeProducts />
       <Vision />
+      <AskSection />
+      <Contact />
+      <img className="black-bg" src={require('../images/black-bg.jpg')} />
         
         
         

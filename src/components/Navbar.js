@@ -10,12 +10,12 @@ function Navbar(){
     </button>
     <div className="collapse navbar-collapse" id="collapsibleNavbar">
       <ul className="navbar-nav">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Graphic Design</a></li>
-              <li><a class="dropdown-item" href="#">Programming Services</a></li>
-              <li><a class="dropdown-item" href="#">Video Services</a></li>
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
+            <ul className="dropdown-menu">
+              <li><a className="dropdown-item" href="#">Graphic Design</a></li>
+              <li><a className="dropdown-item" href="#">Programming Services</a></li>
+              <li><a className="dropdown-item" href="#">Video Services</a></li>
             </ul>
       </li>
         <li className="nav-item">
