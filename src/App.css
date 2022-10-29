@@ -92,3 +92,124 @@ nav  .container-fluid .nav{
   width: 24vh;
     font-size: 2em;
 }
+
+.f-holder{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#new{
+  background-color: var(--C);
+}
+
+.icon{
+  width: 10vh;
+}
+
+.img-fluid{
+  width: 90%;
+  height: auto;
+}
+
+.head{
+  font-size: 10vh;
+}
+.subtitle{
+  font-size: 8vh;
+  padding: auto;
+  
+}
+
+.d-new{
+  color: black;
+  font-size: 1em;
+  padding-top: 2em !important;
+}
+
+.product-col{
+  display: flex !important;
+  justify-content: center ;
+  align-items: center;
+  padding: 4vh 8vh !important;
+}
+
+.card{
+  position: relative;
+  background-image: url(images/product.jfif);
+  background-size: cover;
+  width: 240px;
+  height: 300px;
+  display: flex;
+  align-items: baseline;
+}
+
+.card-info{
+  width: 100%;
+  height: 50%;
+  align-items: baseline;
+  background-color: var(--C2);
+  position: absolute;
+  top:50%;
+  padding: 1em !important;
+  opacity: 0;
+  transition: 0.6s;
+
+}
+
+.card:hover .card-info{
+  opacity: 1;
+}
+
+.btns-bar{
+  display: flex !important;
+  justify-content:center ;
+  align-items: center;
+
+}
+.btns-bar i{
+  font-size: 7vh;
+  padding: 0 3vh !important;
+  color: var(--C4);
+  top: 50%;
+  transition: 0.3s;
+}
+
+.btns-bar i:first-child:hover{
+  color: white;
+}
+
+.btns-bar i:last-child:hover{
+  color: red;
+}
+
+.btns-bar i:first-child:active{
+  color: white;
+  font-size: 10vh;
+}
+
+.btns-bar i:last-child:active{
+  color: rgb(182, 70, 70);
+  font-size: 10vh;
+}
+
+.btn{
+  transition: 0.4s !important;
+}
+
+#vision{
+  background-color: var(--C4);
+}
+
+#vision p , #vision .head ,#vision .subtitle{
+  color: white;
+}
+
+.idea-1{
+  width: 20%;
+    height: 20%;
+    background: white;
+    border-radius: 100%;
+    padding: 1em !important;
+
+}

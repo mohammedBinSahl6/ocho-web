@@ -1,4 +1,7 @@
 import React from "react";
+import SomeProducts from "./SomeProducts";
+import Vision from "./Vision";
+import WhatisNew from "./WhatisNew";
 
 export default function HomePage(){
     return (
@@ -17,6 +20,10 @@ export default function HomePage(){
             </div>
         </div>
       </div>
+
+      <WhatisNew />
+      <SomeProducts />
+      <Vision />
         
         
         
