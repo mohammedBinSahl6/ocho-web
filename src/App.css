@@ -17,7 +17,7 @@
 }
 /* --------------------------------------navbar */
 nav {
-  background-color: #66666663;
+  background-color: black;
   animation: fading 2s ease;
 }
 @keyframes fading{
@@ -60,16 +60,26 @@ nav  .container-fluid .nav{
 
 }
 
+.logo{
+  width: 50%;
+}
+
 .brand{
-  font-size: 4em;
+  font-size: 3em;
   padding-left: 0.6em !important;
   padding-bottom: 1em !important;
+  margin-top: 2em !important;
+  color: var(--C5) !important;
 
+}
+.brand span{
+  color: var(--C) !important;
 }
 
 .find{
-  font-size: 3em;
+  font-size: 2em;
   padding-left: 1em !important;
+  text-align: center;
   
 }
 
@@ -305,7 +315,7 @@ nav  .container-fluid .nav{
 
 footer{
   width: 100%;
-  background-color: var(--C4);
+  background-color: black;
 }
 
 footer ul{
@@ -313,18 +323,18 @@ footer ul{
 }
 
 footer li a{
-  color: var(--C2);
+  color: var(--C2) !important;
 }
 
 footer .social{
-  background-color: var(--C5);
+  background-color: #222;
   transition: 0.6s;
 pointer-events: none !important;
   position: relative;
 
 }
 footer .social i{
-  color: var(--C4);
+  color: var(--C2);
   padding: 0 8px !important;
   font-size: 6vh;
   transition: 0.4s;

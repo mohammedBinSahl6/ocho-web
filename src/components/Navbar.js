@@ -1,10 +1,11 @@
 import React from "react";
+import Logo from "./Logo";
 
 function Navbar(){
     return(
         <nav className="navbar navbar-expand-sm fixed-top navbar-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">UV</a>
+    <a className="navbar-brand" href="#"><Logo /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "./Logo";
 
 export default function Footer(){
     const [so , setso] = useState()
@@ -60,7 +61,7 @@ export default function Footer(){
                         <h4 className="text-center">| Find Your Passion |</h4>
                     </div>
                     <div className="col">
-                        <h1 className="text-center">LOGO</h1>
+                        <Logo />
                     </div>
                 </div>
                 <div className="container-fluid social p-3" style={so}>
