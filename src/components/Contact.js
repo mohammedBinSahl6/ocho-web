@@ -26,7 +26,8 @@ export default function Contact(){
                     <textarea className="form-control" placeholder="Message..." type='text' id="msg" rows='5'></textarea>
                 </div>
                 <div className="form-group" data-aos='fade-up' data-aos-delay='1600'>
-                    <input className="btn btn-outline-dark mt-3 " placeholder="First Name..." type='submit' id="submit-msg" />
+                    <input className="btn btn-outline-dark mt-3 "  type='submit' id="submit-msg" />
+                    <input className="btn btn-outline-danger mt-3 mx-3 "  type='reset' id="reset-msg" />
                 </div>
             </form>
            </div>

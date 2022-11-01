@@ -295,12 +295,69 @@ nav  .container-fluid .nav{
 
 .card-form .form-control:focus{
   border-bottom: 3px solid var(--C4);
+  box-shadow: none !important;
+  border-color: var(--C4) !important;
 }
 .card-form .form-control{
   padding: 5px !important;
+  
 }
 
 footer{
   width: 100%;
   background-color: var(--C4);
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer li a{
+  color: var(--C2);
+}
+
+footer .social{
+  background-color: var(--C5);
+  transition: 0.6s;
+pointer-events: none !important;
+  position: relative;
+
+}
+footer .social i{
+  color: var(--C4);
+  padding: 0 8px !important;
+  font-size: 6vh;
+  transition: 0.4s;
+  pointer-events: auto !important;
+
+}
+
+ /* .social:hover{
+  background: linear-gradient(to right , #523fcf,#8130bc,#dd2056,#f6ba50) !important;
+  color: white;
+} */
+
+footer a i:hover{
+  color: white !important;
+}
+/* 
+.social:hover{
+  background-color:#1773ea ;
+  color: white;
+ 
+} */
+
+footer .social .bxl-twitter:hover .social{
+  background-color: #1c9cea;
+  color: white;
+}
+
+footer .social .bxl-whatsapp-square:hover .social{
+  background-color: #28cd46;
+  color: white;
+}
+
+.f-link{
+  font-size: 3vh;
+  padding: 0.4em 0.6em !important;
 }
