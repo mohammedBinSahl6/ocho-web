@@ -1,7 +1,6 @@
 import React from "react";
 import AskSection from "./AskSection";
 import Contact from "./Contact";
-import Logo from "./Logo";
 import SomeProducts from "./SomeProducts";
 import Vision from "./Vision";
 import WhatisNew from "./WhatisNew";
