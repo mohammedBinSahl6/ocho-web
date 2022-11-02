@@ -24,11 +24,11 @@ export default function Footer(){
        <>
        <footer className="footer  mt-5 text-white ">
             <div className="row">
-                <h3>UNITY VISION</h3>
+                <h3 className="mt-3 px-5">UNITY VISION</h3>
             </div>
             <div className="row pt-5">
                 <div className="col-sm-6">
-                    <ul>
+                    <ul className="px-5">
                         <li className="f-link">Graphic Design</li>
                         <li className="f-link">video Editing</li>
                         <li className="f-link">create your Portofolio</li>
@@ -37,7 +37,7 @@ export default function Footer(){
                     </ul>
                 </div>
                 <div className="col-sm-6">
-                <ul>
+                <ul className="px-5">
                         <li className="f-link">Home</li>
                         <li className="f-link">FAQ</li>
                         <li className="f-link">Policy Privacy</li>

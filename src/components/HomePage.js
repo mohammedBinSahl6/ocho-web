@@ -30,7 +30,7 @@ export default function HomePage(){
        
 
         <div className="row">
-            <div className="btn-holder mt-5">
+            <div className="btn-holder ">
                 <button className="btn btn-outline-light ex-btn mb-3" data-aos='fade-up'>Explore</button>
             </div>
         </div>

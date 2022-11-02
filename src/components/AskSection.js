@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AskSection (){
     return(
@@ -10,7 +11,7 @@ export default function AskSection (){
             </div>
             <div className="row pt-5">
                 <div className="f-holder p-3">
-                    <button className="btn btn-outline-dark ex-btn" data-aos='fade-up' >Fill The Form</button>
+                    <a className="btn btn-outline-dark ex-btn" data-aos='fade-up' href='/fill-form' >Fill The Form</a>
                 </div>
             </div>
         </div>

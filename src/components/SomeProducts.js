@@ -3,12 +3,12 @@ import React from "react";
 export default function  SomeProducts(){
 
     return(
-        <div className="container-fluid p-3" id="some-products">
+        <div className="container-fluid " id="some-products">
             <div className="row pt-5">
                 <h1 className="head text-center" data-aos='fade-up'>Some of Our Products</h1>
             </div>
-            <div className="body-s p-3">
-                <div className="row">
+            <div className="body-s ">
+                {/* <div className="row">
                     <div className="col product-col">
                         <div className="card"  data-aos='fade-right'>
                             <div className="card-info">
@@ -45,11 +45,27 @@ export default function  SomeProducts(){
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="f-holder">
-                    <button className="btn btn-outline-dark btn-block ex-btn"  data-aos='fade-up' type="button">More </button>
+                </div> */}
+                 <div className="f-holder">
+           <div className="banner " data-aos='fade-up' data-aos-duration='1000'>
+                <div className="imgs-holder">
+                    <img className="img-show" src={require('../images/p1.webp')} />
+                    <img className="img-show" src={require('../images/p2.jpg')} />
+                    <img className="img-show" src={require('../images/p3.jpg')} />
+                    <img className="img-show" src={require('../images/p4.jpg')} />
+                    <img className="img-show" src={require('../images/p5.webp')} />
+                    <img className="img-show" src={require('../images/p6.png')} />
                 </div>
             </div>
+           </div>
+                <div className="f-holder">
+                    <button className="btn btn-outline-dark btn-block ex-btn mt-5"  data-aos='fade-up' type="button">More </button>
+                </div>
+            </div>
+
+
+
+          
         </div>
     )
 }

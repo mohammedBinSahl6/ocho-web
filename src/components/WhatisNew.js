@@ -8,8 +8,9 @@ export default function WhatisNew(){
         </div>
         <div className='row pt-5'>
            
-            <h2 className='subtitle'  data-aos='fade-up'>24hrs Costumer Service</h2>
+           
             <div className='col-sm-6'>
+            <h2 className='subtitle text-center'  data-aos='fade-up'>24hrs Costumer Service</h2>
             <img className='img-fluid p-3' src={require('../images/new.jpg')}  data-aos='fade-up' />
             </div>
             <div className='col-sm-6'>
