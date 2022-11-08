@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import menu from '../images/menu.svg'
 function Navbar(){
     return(
-        <nav className="navbar navbar-expand-sm fixed-top navbar-light">
+        <nav className="navbar navbar-expand-lg fixed-top navbar-light">
   <div className="container-fluid">
     <a className="navbar-brand" href='/'><Logo /></a>
     <button className="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -13,7 +13,7 @@ function Navbar(){
     <div className="collapse navbar-collapse" id="collapsibleNavbar">
       <ul className="navbar-nav">
       <li className="nav-item">
-          <Link activeclassNAme- className="nav-link active"to='/'>Home</Link>
+          <NavLink exact activeClassName='navbar__link--active' className="nav-link "to='/'>Home</NavLink>
         </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
@@ -24,13 +24,13 @@ function Navbar(){
             </ul>
       </li>
         <li className="nav-item">
-          <Link className="nav-link" to='/about'>About</Link>
+          <NavLink className="nav-link" activeClassName='navbar__link--active' to='/about'>About</NavLink>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">News</a>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to='/fill-form'>Fill the Form</Link>
+          <NavLink className="nav-link" to='/fill-form' activeClassName='navbar__link--active'>Fill the Form</NavLink>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">careers</a>

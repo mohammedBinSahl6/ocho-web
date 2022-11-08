@@ -21,9 +21,9 @@ nav {
   animation: fading 2s ease;
 }
 @keyframes fading{
-  from{background-color: #66666663;}
+  from{background-color: #000;}
   to{
-    background-color: black ;
+    background-color: #66666663 ;
   }
 }
 
@@ -49,27 +49,30 @@ nav  .container-fluid .nav{
  justify-content: space-between !important;
 }
 
+.navbar__link--active{
+  color: var(--C3);
+  border-bottom: 1px solid var(--C);
+}
 /* --------home 
 --land */
 
 
 .land{
-  background-color:black;
+  background-color:rgba(0, 0, 0, 0.534);
   width: 100%;
-  height: 100vh;
+  height: fit-content;
+  padding-top: 8em !important;
 
 }
 
 .logo{
-  width: 50%;
+  width: 50% !important;
 }
 
 .brand{
-  font-size: 3em;
-  padding-left: 0.6em !important;
-  padding-bottom: 1em !important;
-  margin-top: 2em !important;
+  font-size: 5em;
   color: var(--C5) !important;
+
 
 }
 .brand span{
@@ -77,12 +80,66 @@ nav  .container-fluid .nav{
 }
 
 .find{
-  font-size: 2em;
+  font-size: 3em;
   padding-left: 1em !important;
   text-align: center;
+  color: white;
+  
+}
+.welcome{
+  font-size: 3em;
+  padding-left: 1em !important;
+  text-align: center;
+  color: white;
+
   
 }
 
+.l-btn{
+  width: 22vh; 
+  height: 10vh;
+  font-size: 5vh;
+
+}
+
+.arts{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+#art1,#art2,#art3, #art4,#art5,#art6,#art7{
+  animation : crystal linear 2s infinite;
+  width: 10vh;
+}
+
+@keyframes crystal{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+#art1{
+  animation-delay: 0.5s;
+}
+#art2{
+  animation-delay: 1s;
+}#art3{
+  animation-delay: 1.5s;
+}#art4{
+  animation-delay: 1s;
+}#art5{
+  animation-delay: 0.5s;
+}#art6{
+  animation-delay: 0s;
+}#art7{
+  animation-delay: 0.5s;
+}
 .dropdown-menu {
   background-color: #10484D !important;
 }
@@ -290,10 +347,10 @@ nav  .container-fluid .nav{
 
 .black-bg{
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   position: fixed;
   z-index: -3;
-  top: 10%;
+  top: 0%;
 }
 
 .card-form{
@@ -465,3 +522,43 @@ footer .social .bxl-whatsapp-square:hover .social{
 
 
 
+#about .land{
+  height: 100vh;
+}
+
+.story{
+  margin-top: 7em !important;
+}
+.our-start{
+  background-color: white;
+  height: fit-content;
+}
+
+.cys{
+  position: absolute;
+  right: 5%
+  ;width:30vh;
+  height: 150vh !important;
+  padding-top: 2em !important;
+}
+
+.para{
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+  z-index: 2;
+  position: relative;
+}
+.para h2{
+  color: var(--C4);
+}
+
+.aa-1 , .aa-2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 40vh;
+}
+.head{
+  z-index: 1;
+}

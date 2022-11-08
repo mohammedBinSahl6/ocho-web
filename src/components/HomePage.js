@@ -1,26 +1,42 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AskSection from "./AskSection";
 import Contact from "./Contact";
 import SomeProducts from "./SomeProducts";
 import Vision from "./Vision";
 import WhatisNew from "./WhatisNew";
 import logo from '../images/logo.svg'
+import Arts from "./vectors/Arts";
 
 export default function HomePage(){
-    return (
+   
+  useEffect(() => {
+    document.title = 'UVISION | Home';
+  });
+  return (
         <>
-      <div className="land pt-5 ">
-        
-       
+      <div className="land  ">
+        <Arts />
+       <div className="row p-3">
+        <h1 className="text-center welcome">Welcome to </h1>
+       </div>
+       <div className="row p-3">
+        <h1 className="text-center brand">UNITY <span>V</span>ISION</h1>
+       </div>
+       <div className="row p-5">
+        <p className="text-center find">Find Your Passion</p>
+       </div>
+       <div className="row p-5">
+        <div className="f-holder">
+          <button className="btn btn-outline-light m-5 l-btn">News</button>
+          <button className="btn btn-outline-light m-5 l-btn">Designs</button>
+        </div>
+       </div>
         </div>
        
-
-        <div className="row">
-            <div className="btn-holder ">
-                <button className="btn btn-outline-light ex-btn mb-3" data-aos='fade-up'>Explore</button>
-            </div>
-        </div>
-      </div>
+<div className="f-holder" >
+<img className="logo" src={logo}  style={{zIndex: '-1', position:'fixed',top:'25%'}}/>
+</div>
+       
 
       <WhatisNew />
       <SomeProducts />
