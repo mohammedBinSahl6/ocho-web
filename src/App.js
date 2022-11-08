@@ -5,8 +5,9 @@ import HomePage from './components/HomePage';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import Footer from './components/Footer';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route,  Routes } from 'react-router-dom';
 import GraphicForm from './components/GraphicForm';
+import About from './components/About';
 Aos.init()
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
   <Navbar />
     <Routes>
       <Route path='/' element={<HomePage />}></Route>
-      <Route path='/fill-form' element={<GraphicForm />} /> 
+      <Route path='/fill-form' element={<GraphicForm />} />
+      <Route path='/about' element={<About />} />
     </Routes>
   <Footer />
   

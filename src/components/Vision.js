@@ -25,15 +25,15 @@ export default function Vision(){
                         <div className="diagram-body">
                             <div className='diagram'>
                                 <div className="idea-1" data-aos='fade-down-right'>
-                                    <h2 className="text-center">Idea</h2>
+                                    <h2 className="text-center">Planing</h2>
                                 </div>
                                 <div className="ar-h"  data-aos='fade-down-right' data-aos-delay='500'><i className='bx bx-chevrons-left arrow'></i></div>
                                 <div className="idea-2"  data-aos='fade-down-right'  data-aos-delay='1000'>
-                                    <h2 className="text-center">Idea</h2>
+                                    <h2 className="text-center">Working</h2>
                                 </div>
                                 <div className="ar-h-2"  data-aos='fade-down-left'  data-aos-delay='1500'><i className='bx bx-chevrons-left arrow'></i></div>
                                 <div className="idea-3"  data-aos='fade-down-left'  data-aos-delay='2000'>
-                                    <h2 className="text-center" >Idea</h2>
+                                    <h2 className="text-center" >Successful</h2>
                                 </div>
                                 
 
