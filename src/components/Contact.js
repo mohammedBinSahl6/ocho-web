@@ -6,8 +6,8 @@ export default function Contact(){
             <div className="row pt-5">
                 <h1 className="head text-center text-white" data-aos='fade-up'>Contact Us</h1>
             </div>
-            <div className="f-holder">
-            <div className="card-form p-5 pt-5" data-aos='fade-up'>
+            <div className="f-holder py-5">
+            <div className="card-form p-5" data-aos='fade-up'>
            <form>
                 <div className="form-group" data-aos='fade-up' data-aos-delay='300'>
                     <label for='fname' className="form-label">First Name</label>

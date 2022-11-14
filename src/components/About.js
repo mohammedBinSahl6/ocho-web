@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import logo from '../images/logo.svg'
 import AA1 from "./vectors/AA1";
 import AA2 from "./vectors/AA2";
+import AngleAbout1 from "./vectors/Angle-about1";
+import AngleAbout2 from "./vectors/Angle-about2";
 import Cys from "./vectors/Cys";
 export default function About(){
     useEffect(() => {
@@ -48,6 +50,50 @@ export default function About(){
             </div>
 
 
+        </div>
+
+        <div className="container-fluid " id='team'>
+            <div className="row pt-5">
+                <h1 className="text-center">Founders</h1>
+            </div>
+            <div className="row pt-5">
+                <div className="col-sm-6 p-5">
+                    <div className="member p-3">
+                        <AngleAbout1 />
+                        <h2> <i class='bx bxs-user-circle'></i> Mohammed Bin Sahl</h2>
+                        <h3>Web Developer</h3>
+
+                    </div>
+                </div>
+                <div className="col-sm-6 p-5">
+                    <div className="member p-3">
+                        <AngleAbout1 />
+                        <h2> <i class='bx bxs-user-circle'></i> Abdulrahman Abdulqader</h2>
+                        <h3>Graphic Designer</h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-sm-6 p-5">
+                <div className="member p-3">
+                    <AngleAbout2 />
+                        <h2> <i class='bx bxs-user-circle'></i>Abdullah Taom</h2>
+                        <h3>Marketing Maneger</h3>
+                        
+                    </div>
+                </div>
+                <div className="col-sm-6 p-5">
+                <div className="member p-3">
+                    <AngleAbout2 />
+                        <h2> <i class='bx bxs-user-circle'></i>Yasser Ahmed</h2>
+                        <h3>Graphic Designer</h3>
+                        
+                    </div>
+                </div>
+                
+            </div>
         </div>
        
             <div className="f-holder" >

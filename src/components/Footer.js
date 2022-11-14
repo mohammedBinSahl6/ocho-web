@@ -22,7 +22,7 @@ export default function Footer(){
     
     return (
        <>
-       <footer className="footer  mt-5 text-white ">
+       <footer className="footer  text-white ">
             <div className="row">
                 <h3 className="mt-3 px-5">UNITY VISION</h3>
             </div>

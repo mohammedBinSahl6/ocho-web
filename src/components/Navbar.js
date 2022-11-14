@@ -2,9 +2,11 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import menu from '../images/menu.svg'
+import WaveNav from "./vectors/WaveNav";
 function Navbar(){
     return(
-        <nav className="navbar navbar-expand-lg fixed-top navbar-light">
+        <div className="the-navbar fixed-top">
+          <nav className="navbar navbar-expand-lg fixed-top navbar-light">
   <div className="container-fluid">
     <a className="navbar-brand" href='/'><Logo /></a>
     <button className="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -18,7 +20,7 @@ function Navbar(){
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Services</a>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Graphic Design</a></li>
+              <li><NavLink className="dropdown-item" href="#" to='/VDesign'>VDesign</NavLink></li>
               <li><a className="dropdown-item" href="#">Programming Services</a></li>
               <li><a className="dropdown-item" href="#">Video Services</a></li>
             </ul>
@@ -41,7 +43,10 @@ function Navbar(){
       </ul>
     </div>
   </div>
+  
 </nav>
+
+        </div>
     )
 }
 

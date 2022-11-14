@@ -9,11 +9,11 @@ export default function WhatisNew(){
         <div className='row pt-5'>
            
            
-            <div className='col-sm-6'>
+            <div className='col-sm-6 p-5'>
             <h2 className='subtitle text-center'  data-aos='fade-up'>24hrs Costumer Service</h2>
             <img className='img-fluid p-3' src={require('../images/new.jpg')}  data-aos='fade-up' />
             </div>
-            <div className='col-sm-6'>
+            <div className='col-sm-6 p-5'>
                 <p className='d-new'  data-aos='fade-up'>I'm a paragraph. Click here to add your own text and edit me.
                 It’s easy. Just click “Edit Text” or double click me to add your own content
                 and make changes to the font. Feel free to drag and drop me anywhere you like on your page.
