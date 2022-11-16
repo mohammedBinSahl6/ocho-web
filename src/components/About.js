@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from '../images/logo.svg'
+import logo from '../images/v-logo.svg'
 import AA1 from "./vectors/AA1";
 import AA2 from "./vectors/AA2";
 import AngleAbout1 from "./vectors/Angle-about1";

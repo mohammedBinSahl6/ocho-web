@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function  SomeProducts(){
 
@@ -59,7 +60,7 @@ export default function  SomeProducts(){
             </div>
            </div>
                 <div className="f-holder">
-                    <button className="btn btn-outline-dark btn-block ex-btn mt-5"  data-aos='fade-up' type="button">More </button>
+                    <a className="btn btn-outline-dark btn-block ex-btn mt-5"  data-aos='fade-up' href='/VDesign'>More </a>
                 </div>
             </div>
 

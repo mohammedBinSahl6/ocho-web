@@ -15,6 +15,9 @@
   margin: 0 !important;
   box-sizing: border-box;
 }
+.starter{
+  padding-top: 8em !important;
+}
 /* --------------------------------------navbar */
 nav {
   background-color: rgba(0, 0, 0, 0.438);
@@ -69,6 +72,9 @@ nav  .container-fluid .nav{
   width: 50% !important;
 }
 
+.logo-compo{
+  width: 4vh !important;
+}
 .brand{
   font-size: 5em;
   color: var(--C5) !important;
@@ -480,9 +486,8 @@ footer .social .bxl-whatsapp-square:hover .social{
 }
 
 .form-body{
-  width: 70%;
-  border: 2px solid var(--C4);
-  border-radius: 10%;
+  width: 90vw;
+ 
   padding: 0 1em !important;
 }
 #g-form .form-control{
@@ -499,7 +504,7 @@ footer .social .bxl-whatsapp-square:hover .social{
 
 .menu{
   color: white;
-  width: 6vh;
+  width: 4vh;
 }
 .fcontrol{
   border: none;
@@ -589,7 +594,7 @@ footer .social .bxl-whatsapp-square:hover .social{
 
 #vd-land{
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   background-color: #000;
 }
 .r-work .bov{
@@ -666,4 +671,8 @@ footer .social .bxl-whatsapp-square:hover .social{
 #dash{
   height: 100vh;
   margin-top: 8em !important;
+}
+
+#Forms-design .btn-group .btn{
+  width: 10vh;
 }

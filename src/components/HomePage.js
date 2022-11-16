@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
-import AskSection from "./AskSection";
 import Contact from "./Contact";
 import SomeProducts from "./SomeProducts";
-import Vision from "./Vision";
 import WhatisNew from "./WhatisNew";
-import logo from '../images/logo.svg'
+import logo from '../images/v-logo.svg'
 import Arts from "./vectors/Arts";
 
 export default function HomePage(){
@@ -40,8 +38,6 @@ export default function HomePage(){
 
       <WhatisNew />
       <SomeProducts />
-      <Vision />
-      <AskSection />
       <Contact />
       <img className="black-bg" src={require('../images/black-bg.jpg')} />
         

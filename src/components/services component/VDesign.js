@@ -1,10 +1,26 @@
 import create from '../../images/create-design.jpg'
+import Logo from '../Logo';
+import vdgroup from '../../images/VD-GROUP.svg'
+import vlogo from '../../images/v-logo.svg'
+import { Link } from 'react-router-dom';
 export default function VDesign(){
     return(
         <>
-            <div className="container-fluid " id="vd-land">
+            <div className="container-fluid starter " id="vd-land">
                 <div className="row pt-5">
                     <h1 className="text-center head text-white">VDesign</h1>
+                </div>
+                <div className='row  py-5'>
+                    <div className='col-sm-6'>
+                        <div className='f-holder'>
+                        <img className='logo' src={vlogo} />
+                        </div>
+                    </div>
+                    <div className='col-sm-6'>
+                        <div className='f-holder'>
+                            <img className='logo' src={vdgroup} />
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -90,7 +106,7 @@ export default function VDesign(){
                     </div>
                     <div className="col-sm-6">
                         <div className='f-holder'>
-                            <button className='btn btn-outline-dark start-d-btn'>Start</button>
+                            <a href='/D-forms/en' className='btn btn-outline-dark start-d-btn my-5'>Start</a>
                         </div>
                     </div>
                 </div>

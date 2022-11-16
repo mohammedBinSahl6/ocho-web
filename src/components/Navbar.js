@@ -2,7 +2,6 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "./Logo";
 import menu from '../images/menu.svg'
-import WaveNav from "./vectors/WaveNav";
 function Navbar(){
     return(
         <div className="the-navbar fixed-top">
@@ -30,9 +29,6 @@ function Navbar(){
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">News</a>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" to='/fill-form' activeClassName='navbar__link--active'>Fill the Form</NavLink>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">careers</a>
